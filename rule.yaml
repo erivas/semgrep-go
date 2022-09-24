@@ -1,0 +1,7 @@
+rules:
+  - id: my_rule
+    pattern: let $X = $Y
+    severity: WARNING
+    message: "FOO"
+    languages:
+    - ocaml
